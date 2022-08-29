@@ -11,6 +11,6 @@ public class HelloController {
     @GetMapping("/helloworld")
     public String hello() {
         System.out.println("林武泰同学，欢迎学习springboot");
-        return "林武泰同学，欢迎学习springboot";
+        return "林武泰，欢迎学习springboot";
     }
 }
