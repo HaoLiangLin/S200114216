@@ -23,9 +23,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="C:\maven\apache-maven-3.6.3\conf\settings.xml" />
-        <option name="workOffline" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../maven/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.8.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -51,7 +50,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager">
     <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -71,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661736016457</updated>
       <workItem from="1661736017666" duration="5471000" />
+      <workItem from="1661903417836" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
@@ -102,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第二次提交" />
