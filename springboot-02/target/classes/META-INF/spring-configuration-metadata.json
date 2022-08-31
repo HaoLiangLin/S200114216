@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "student",
+      "type": "com.gdsdxy.domain.Student",
+      "sourceType": "com.gdsdxy.domain.Student"
+    }
+  ],
+  "properties": [
+    {
+      "name": "student.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gdsdxy.domain.Student"
+    },
+    {
+      "name": "student.course",
+      "type": "java.lang.String",
+      "sourceType": "com.gdsdxy.domain.Student"
+    },
+    {
+      "name": "student.gender",
+      "type": "java.lang.String",
+      "sourceType": "com.gdsdxy.domain.Student"
+    },
+    {
+      "name": "student.id",
+      "type": "java.lang.Long",
+      "sourceType": "com.gdsdxy.domain.Student"
+    },
+    {
+      "name": "student.name",
+      "type": "java.lang.String",
+      "sourceType": "com.gdsdxy.domain.Student"
+    },
+    {
+      "name": "student.scores",
+      "type": "java.util.Map<java.lang.String,java.lang.Integer>",
+      "sourceType": "com.gdsdxy.domain.Student"
+    }
+  ],
+  "hints": []
+}
