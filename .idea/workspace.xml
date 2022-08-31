@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="第二次提交" />
+    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="第二次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/dao/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-01/src/test/java/com/gdsdxy/UsersDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/Springboot01Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01/src/main/java/com/gdsdxy/Springboot01Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01/target/classes/com/gdsdxy/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01/target/classes/com/gdsdxy/controller/HelloController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +59,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -52,7 +67,55 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.UsersDaoTest.selectOne">
+    <configuration name="UsersDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsersDaoTest.selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
+      <option name="METHOD_NAME" value="selectOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot01Application" />
@@ -60,6 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UsersDaoTest.selectOne" />
+        <item itemvalue="JUnit.UsersDaoTest.insert" />
+        <item itemvalue="JUnit.UsersDaoTest.delete" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +140,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661736016457</updated>
       <workItem from="1661736017666" duration="5471000" />
-      <workItem from="1661903417836" duration="77000" />
+      <workItem from="1661903417836" duration="925000" />
+      <workItem from="1661905505208" duration="3019000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
