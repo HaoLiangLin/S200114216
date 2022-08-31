@@ -1,4 +1,4 @@
-package com.gdsdxy.pojo;
+package com.gdsdxy.domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

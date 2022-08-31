@@ -1,7 +1,7 @@
 package com.gdsdxy;
 
 import com.gdsdxy.dao.UsersDao;
-import com.gdsdxy.pojo.Users;
+import com.gdsdxy.domain.Users;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

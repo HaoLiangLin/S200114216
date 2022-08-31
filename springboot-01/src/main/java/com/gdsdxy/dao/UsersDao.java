@@ -1,7 +1,7 @@
 package com.gdsdxy.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.gdsdxy.pojo.Users;
+import com.gdsdxy.domain.Users;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
