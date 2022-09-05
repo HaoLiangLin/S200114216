@@ -21,6 +21,17 @@ public interface ArticleDao {
     int updateArticle(Article article);
 
     @Select("select id,title,content from t_article where id = #{id}")
+    @Results({
+            @Result(column = "id", property = "id", id = true),
+            @Result(column = "title", property = "title"),
+            @Result(column = "content", property = "content"),
+            @Result(
+                    property = "commentList",
+                    column = "id",
+                    javaType = Comment.class,
+                    many = @Many(select = "com.gdsdxy.dao.CommentDao.getArticleById")
+            )
+    })
     Article selectOne(int id);
 
     @Select("select id,title,content from t_article")

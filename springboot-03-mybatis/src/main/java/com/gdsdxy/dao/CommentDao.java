@@ -37,6 +37,9 @@ public interface CommentDao {
     })
     Comment getCommentOne(Integer id);
 
+    @Select("select id,content,author from t_comment where article_id = #{id}")
+    List<Comment> getArticleById(int id);
+
     class SqlBuild {
         public String update(Comment comment) {
             SQL sql = new SQL();

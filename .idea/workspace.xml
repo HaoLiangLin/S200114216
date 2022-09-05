@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day3第一次提交">
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/ArticleDaoTest.java" afterDir="false" />
+    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day3第二次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/Springboot03MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/Springboot03MybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +210,7 @@
       <workItem from="1661736017666" duration="5471000" />
       <workItem from="1661903417836" duration="925000" />
       <workItem from="1661905505208" duration="9797000" />
-      <workItem from="1662336213187" duration="11073000" />
+      <workItem from="1662336213187" duration="12061000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
@@ -261,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662344035505</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day3第二次提交">
+      <created>1662348086937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662348086937</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +293,8 @@
     <MESSAGE value="day2第四次提交" />
     <MESSAGE value="day2第五次提交" />
     <MESSAGE value="day3第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3第一次提交" />
+    <MESSAGE value="day3第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3第二次提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
