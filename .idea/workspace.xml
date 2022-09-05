@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day2第五次提交">
-      <change afterPath="$PROJECT_DIR$/springboot-02/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02/src/test/java/com/gdsdxy/Springboot02ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02/src/test/java/com/gdsdxy/Springboot02ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02/target/test-classes/com/gdsdxy/Springboot02ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02/target/test-classes/com/gdsdxy/Springboot02ApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -54,10 +64,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-mybatis" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -71,7 +82,55 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Springboot02ApplicationTests.contextLoads">
+  <component name="RunManager" selected="JUnit.CommentDaoTest.selectOneTest">
+    <configuration name="CommentDaoTest.addComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
+      <option name="METHOD_NAME" value="addComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentDaoTest.selectAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
+      <option name="METHOD_NAME" value="selectAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentDaoTest.selectOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
+      <option name="METHOD_NAME" value="selectOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot02ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-02" />
       <extension name="coverage">
@@ -83,38 +142,6 @@
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
       <option name="MAIN_CLASS_NAME" value="com.gdsdxy.Springboot02ApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdsdxy.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersDaoTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdsdxy.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
-      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,12 +177,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot03MybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-03-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot03MybatisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommentDaoTest.selectOneTest" />
+        <item itemvalue="JUnit.CommentDaoTest.selectAllTest" />
+        <item itemvalue="JUnit.CommentDaoTest.addComment" />
         <item itemvalue="JUnit.Springboot02ApplicationTests.contextLoads" />
         <item itemvalue="JUnit.UsersDaoTest.selectOne" />
-        <item itemvalue="JUnit.UsersDaoTest.insert" />
-        <item itemvalue="JUnit.UsersDaoTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +208,7 @@
       <workItem from="1661736017666" duration="5471000" />
       <workItem from="1661903417836" duration="925000" />
       <workItem from="1661905505208" duration="9797000" />
+      <workItem from="1662336213187" duration="7224000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
