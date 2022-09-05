@@ -25,6 +25,16 @@ public class CommentDaoTest {
     }
 
     @Test
+    void deleteComment() {
+        int result = commentDao.deleteComment(11);
+        if (result > 0) {
+            System.out.println("删除成功");
+        } else {
+            System.out.println("删除失败");
+        }
+    }
+
+    @Test
     void selectAllTest() {
         List<Comment> allComment = commentDao.getAllComment();
         allComment.forEach(System.out::println);
@@ -32,7 +42,7 @@ public class CommentDaoTest {
 
     @Test
     void selectOneTest() {
-        Comment result = commentDao.getCommentOne(11);
+        Comment result = commentDao.getCommentOne(1);
         System.out.println("result = " + result);
     }
 }

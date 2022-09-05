@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day2第五次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day3第一次提交">
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/ArticleDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -82,8 +84,40 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CommentDaoTest.selectOneTest">
-    <configuration name="CommentDaoTest.addComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ArticleDaoTest.selectOneTest">
+    <configuration name="ArticleDaoTest.addArticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="addArticleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoTest.selectOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="selectOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentDaoTest.deleteComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-03-mybatis" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +127,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
       <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
-      <option name="METHOD_NAME" value="addComment" />
+      <option name="METHOD_NAME" value="deleteComment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,38 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Springboot02ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdsdxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.Springboot02ApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsersDaoTest.selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdsdxy.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.UsersDaoTest" />
-      <option name="METHOD_NAME" value="selectOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Springboot01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot01Application" />
@@ -186,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArticleDaoTest.selectOneTest" />
+        <item itemvalue="JUnit.ArticleDaoTest.addArticleTest" />
+        <item itemvalue="JUnit.CommentDaoTest.deleteComment" />
         <item itemvalue="JUnit.CommentDaoTest.selectOneTest" />
         <item itemvalue="JUnit.CommentDaoTest.selectAllTest" />
-        <item itemvalue="JUnit.CommentDaoTest.addComment" />
-        <item itemvalue="JUnit.Springboot02ApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.UsersDaoTest.selectOne" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +210,7 @@
       <workItem from="1661736017666" duration="5471000" />
       <workItem from="1661903417836" duration="925000" />
       <workItem from="1661905505208" duration="9797000" />
-      <workItem from="1662336213187" duration="7224000" />
+      <workItem from="1662336213187" duration="11073000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
@@ -252,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661914359511</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day3第一次提交">
+      <created>1662344035505</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662344035505</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +285,8 @@
     <MESSAGE value="day2第三次提交" />
     <MESSAGE value="day2第四次提交" />
     <MESSAGE value="day2第五次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2第五次提交" />
+    <MESSAGE value="day3第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3第一次提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
