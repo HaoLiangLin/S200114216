@@ -1,7 +1,7 @@
 package com.gdsdxy;
 
 import com.gdsdxy.dao.CommentDao;
-import com.gdsdxy.pojo.Comment;
+import com.gdsdxy.entity.Comment;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -31,6 +31,16 @@ public class CommentDaoTest {
             System.out.println("删除成功");
         } else {
             System.out.println("删除失败");
+        }
+    }
+
+    @Test
+    void updateComment() {
+        int result = commentDao.updateComment(new Comment(5, "不太好", "李四", 2));
+        if (result > 0) {
+            System.out.println("修改成功");
+        } else {
+            System.out.println("修改失败");
         }
     }
 

@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day3第二次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/Springboot03MybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/Springboot03MybatisApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/ArticleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/main/java/com/gdsdxy/pojo/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/ArticleDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/ArticleDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/src/test/java/com/gdsdxy/CommentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/ArticleDao$SqlBuild.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/ArticleDao$SqlBuild.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/CommentDao$SqlBuild.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/CommentDao$SqlBuild.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/CommentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/dao/CommentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/pojo/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/classes/com/gdsdxy/pojo/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/test-classes/com/gdsdxy/ArticleDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/test-classes/com/gdsdxy/ArticleDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-03-mybatis/target/test-classes/com/gdsdxy/CommentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-03-mybatis/target/test-classes/com/gdsdxy/CommentDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +80,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-04-swagger/src/main/java/com/gdsdxy" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\S200114216\springboot-04-swagger\src\main\java\com\gdsdxy" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gdsdxy" />
     </key>
@@ -84,8 +101,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArticleDaoTest.selectOneTest">
-    <configuration name="ArticleDaoTest.addArticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CommentDaoTest">
+    <configuration name="ArticleDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-03-mybatis" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +112,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
       <option name="MAIN_CLASS_NAME" value="com.gdsdxy.ArticleDaoTest" />
-      <option name="METHOD_NAME" value="addArticleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleDaoTest.selectAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-03-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gdsdxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gdsdxy" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="selectAllTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommentDaoTest.deleteComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArticleDaoTest.updateArticleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-03-mybatis" />
       <extension name="coverage">
         <pattern>
@@ -126,14 +158,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
-      <option name="METHOD_NAME" value="deleteComment" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.ArticleDaoTest" />
+      <option name="METHOD_NAME" value="updateArticleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommentDaoTest.selectAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-03-mybatis" />
       <extension name="coverage">
         <pattern>
@@ -143,24 +175,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
       <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
-      <option name="METHOD_NAME" value="selectAllTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommentDaoTest.selectOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-03-mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gdsdxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentDaoTest" />
-      <option name="METHOD_NAME" value="selectOneTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -186,13 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot04SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-04-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot04SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommentDaoTest" />
+        <item itemvalue="JUnit.ArticleDaoTest" />
+        <item itemvalue="JUnit.ArticleDaoTest.selectAllTest" />
         <item itemvalue="JUnit.ArticleDaoTest.selectOneTest" />
-        <item itemvalue="JUnit.ArticleDaoTest.addArticleTest" />
-        <item itemvalue="JUnit.CommentDaoTest.deleteComment" />
-        <item itemvalue="JUnit.CommentDaoTest.selectOneTest" />
-        <item itemvalue="JUnit.CommentDaoTest.selectAllTest" />
+        <item itemvalue="JUnit.ArticleDaoTest.updateArticleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +233,9 @@
       <workItem from="1661903417836" duration="925000" />
       <workItem from="1661905505208" duration="9797000" />
       <workItem from="1662336213187" duration="12061000" />
+      <workItem from="1662507913852" duration="658000" />
+      <workItem from="1662508585210" duration="35000" />
+      <workItem from="1662508636169" duration="10704000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>

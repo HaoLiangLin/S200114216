@@ -1,6 +1,6 @@
 package com.gdsdxy.dao;
 
-import com.gdsdxy.pojo.Comment;
+import com.gdsdxy.entity.Comment;
 import org.apache.ibatis.annotations.*;
 import org.apache.ibatis.jdbc.SQL;
 import org.springframework.stereotype.Repository;
@@ -37,7 +37,13 @@ public interface CommentDao {
     })
     Comment getCommentOne(Integer id);
 
-    @Select("select id,content,author from t_comment where article_id = #{id}")
+    @Select("select id,content,author,article_id from t_comment where article_id = #{id}")
+    @Results({
+            @Result(column = "id", property = "id", id = true),
+            @Result(column = "content", property = "content"),
+            @Result(column = "author", property = "author"),
+            @Result(column = "article_id", property = "articleId"),
+    })
     List<Comment> getArticleById(int id);
 
     class SqlBuild {
@@ -53,6 +59,7 @@ public interface CommentDao {
             if (comment.getArticleId() != null) {
                 sql.SET("article_id=#{articleId}");
             }
+            sql.WHERE("id = #{id}");
             return sql.toString();
         }
     }
