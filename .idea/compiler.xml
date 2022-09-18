@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot05-MyBatisPlus" />
+        <module name="springboot-05-mybatisplus" />
+        <module name="springboot-01" />
+        <module name="springboot-03-mybatis" />
         <module name="springboot-04-swagger" />
         <module name="springboot-02" />
         <module name="S200114216" />
-        <module name="springboot-01" />
-        <module name="springboot-03-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -1,0 +1,14 @@
+# 应用名称
+spring:
+  application:
+    name: springboot-05-mybatisplus
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/bookdatabase?serverTimezone=UTC
+    username: root
+    password: 123456
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
+
+
