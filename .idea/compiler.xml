@@ -14,9 +14,12 @@
         <module name="springboot-04-swagger" />
         <module name="springboot-02" />
         <module name="S200114216" />
+        <module name="springboot-06-jpa" />
+        <module name="springboot-07-Thymeleaf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="springboot-07-shop" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
       <module name="springboot03-mybatis" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-01" options="-parameters" />
       <module name="springboot-02" options="-parameters" />
+      <module name="springboot-07-shop" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
     </option>
   </component>

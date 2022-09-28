@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/springboot-04-swagger/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-05-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot05-MyBatisPlus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-Thymeleaf/pom.xml" />
       </list>
     </option>
   </component>

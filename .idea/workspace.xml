@@ -4,11 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day4第一次提交">
+    <list default="true" id="b77f2808-1bc6-4073-b80d-fa94a96d487a" name="Changes" comment="day6第一次提交">
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/java/com/gdsdxy/Springboot06JpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/java/com/gdsdxy/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/java/com/gdsdxy/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/java/com/gdsdxy/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/java/com/gdsdxy/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/test/java/com/gdsdxy/ArticleDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/test/java/com/gdsdxy/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-06-jpa/src/test/java/com/gdsdxy/Springboot06JpaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/src/main/java/com/gdsdxy/Springboot07ThymeleafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/src/main/java/com/gdsdxy/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-07-Thymeleaf/src/test/java/com/gdsdxy/Springboot07ThymeleafApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +46,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,12 +77,16 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="2E0cbZUcVFqYcXOLJcnAt3r9v1f" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -83,6 +114,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.gdsdxy" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gdsdxy.entity" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -91,9 +125,22 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBoot05MyBatisPlusApplicationTests.deleteBy15">
-    <configuration name="SpringBoot05MyBatisPlusApplicationTests.deleteBy14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot05-MyBatisPlus" />
+  <component name="RunManager" selected="Spring Boot.Springboot07ThymeleafApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentTest.deleteTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-06-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gdsdxy.*" />
@@ -101,15 +148,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.SpringBoot05MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="deleteBy14" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentTest" />
+      <option name="METHOD_NAME" value="deleteTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBoot05MyBatisPlusApplicationTests.deleteBy15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot05-MyBatisPlus" />
+    <configuration name="CommentTest.insertTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-06-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gdsdxy.*" />
@@ -117,15 +164,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.SpringBoot05MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="deleteBy15" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentTest" />
+      <option name="METHOD_NAME" value="insertTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBoot05MyBatisPlusApplicationTests.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot05-MyBatisPlus" />
+    <configuration name="CommentTest.pageHelp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-06-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gdsdxy.*" />
@@ -133,15 +180,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.SpringBoot05MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="deleteById" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentTest" />
+      <option name="METHOD_NAME" value="pageHelp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBoot05MyBatisPlusApplicationTests.update12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot05-MyBatisPlus" />
+    <configuration name="CommentTest.selectTest6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-06-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gdsdxy.*" />
@@ -149,15 +196,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.SpringBoot05MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="update12" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentTest" />
+      <option name="METHOD_NAME" value="selectTest6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBoot05MyBatisPlusApplicationTests.updateAllFlag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringBoot05-MyBatisPlus" />
+    <configuration name="CommentTest.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-06-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gdsdxy.*" />
@@ -165,8 +212,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gdsdxy" />
-      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.SpringBoot05MyBatisPlusApplicationTests" />
-      <option name="METHOD_NAME" value="updateAllFlag" />
+      <option name="MAIN_CLASS_NAME" value="com.gdsdxy.CommentTest" />
+      <option name="METHOD_NAME" value="updateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,13 +261,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot06JpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-06-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot06JpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot07ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-07-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot07ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot07ThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-07-Thymeleaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gdsdxy.Springboot07ThymeleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringBoot05MyBatisPlusApplicationTests.deleteBy15" />
-        <item itemvalue="JUnit.SpringBoot05MyBatisPlusApplicationTests.deleteBy14" />
-        <item itemvalue="JUnit.SpringBoot05MyBatisPlusApplicationTests.deleteById" />
-        <item itemvalue="JUnit.SpringBoot05MyBatisPlusApplicationTests.update12" />
-        <item itemvalue="JUnit.SpringBoot05MyBatisPlusApplicationTests.updateAllFlag" />
+        <item itemvalue="JUnit.CommentTest.pageHelp" />
+        <item itemvalue="JUnit.CommentTest.deleteTest2" />
+        <item itemvalue="JUnit.CommentTest.updateTest" />
+        <item itemvalue="JUnit.CommentTest.insertTest1" />
+        <item itemvalue="JUnit.CommentTest.selectTest6" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +313,10 @@
       <workItem from="1663112779827" duration="285000" />
       <workItem from="1663113080595" duration="22000" />
       <workItem from="1663113119030" duration="11330000" />
-      <workItem from="1663544305290" duration="270000" />
+      <workItem from="1663544305290" duration="1441000" />
+      <workItem from="1663717734717" duration="9329000" />
+      <workItem from="1664150676845" duration="1790000" />
+      <workItem from="1664331393744" duration="2024000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1661741020656</created>
@@ -310,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662521283548</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="day6第一次提交">
+      <created>1663544715136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663544715136</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +407,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="第二次提交" />
     <MESSAGE value="day2第二次提交" />
     <MESSAGE value="day2第三次提交" />
@@ -337,7 +416,8 @@
     <MESSAGE value="day3第一次提交" />
     <MESSAGE value="day3第二次提交" />
     <MESSAGE value="day4第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="day4第一次提交" />
+    <MESSAGE value="day6第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="day6第一次提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
